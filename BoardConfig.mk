@@ -141,3 +141,6 @@ TARGET_USES_LOGD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_USB_STORAGE := true
 PLATFORM_VERSION := 16.1.0
+
+# PBRP specific build flags
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
